@@ -71,7 +71,9 @@ def main():
 
     print("\nPushing commits to your remote repository...")
     subprocess.run(["git", "push"], cwd=repo_path)
+
     print("✅ All done!! Check your GitHub contribution graph in a few minutes.\n")
+
     print("Tip: Use a dedicated repository for best results. Happy coding!")
 
 if __name__ == "__main__":
